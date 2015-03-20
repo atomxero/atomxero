@@ -16,8 +16,8 @@ h1{
   	
 }
 
-h3, h4 {
-	color: rgb(255,170,0);
+h3{
+	color: rgb(170,255,0);
 	font-family: 'Source Sans Pro', sans-serif;
 	text-align: center;
 }
@@ -43,14 +43,32 @@ li.item {
 
 img.center {
 	height: 300px;
+	width: 300px;
 	border: 5px solid rgb(0,170,255);
 	border-radius: 50px;
 
 }
+a:link{
 
+	color: white;
+}
+
+a:visited {
+ 	color: white;
+
+
+ }
+ a:hover {
+ 	color: rgb(255,0,170);
+ }
+
+div.box {
+	background: black;
+	padding-bottom: 20px;
+	border: solid 5px rgb(0,170,255);
+}
 
 .controls {
-
   bottom: 100px;
   width: 100%;
   text-align: center;
