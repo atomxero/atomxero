@@ -1,21 +1,67 @@
 
 
 body{
-	background: url("../img/wave.jpg") no-repeat center center fixed; 
+	background: url("../img/dock.jpg") no-repeat center center fixed; 
 	background-size: cover;
-	background-opacity: 0.5;
+	color: white;
+
 }
 
 h1{
-  font-size: 3em;
-	background-color: orange;
-  color: red;
-  padding: .15em;
-  text-decoration: none;
+  		text-align: center;
+  		font-size: 3em;
+
+  		padding: .15em;
+  	
 }
 
-li {
+
+
+li.item {
 		display: inline;
+		font-size: 1.5em;
 		margin: 1em;
-		color: white;
+	
+
+}
+
+.gallery {
+  position: relative;
+
+}
+.gallery .item {
+  height: 960px;
+  overflow: hidden;
+  text-align: center;
+  border-radius: 50px;
+
+
+ 
+}
+.gallery .controls {
+  position: absolute;
+  bottom: 100px;
+  width: 100%;
+  text-align: center;
+}
+
+.gallery .controls img {
+  border: 5px solid #f8f8d6;
+  border-radius: 60px;
+}
+
+.gallery .controls img:hover {
+  border: 5px solid #fa3e3e;
+  border-radius: 60px;
+}
+
+
+.gallery .control-button {
+  display: inline-block;
+  margin: 0;
+  font-size: 16px;
+  text-align: center;
+  color: #fa3e3e;
+  text-decoration: none;
+ 
 }
