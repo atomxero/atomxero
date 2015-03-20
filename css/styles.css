@@ -8,7 +8,7 @@ body{
 }
 
 h1{
-		color: rgb(0,170,255); 
+		color: rgb(170,255,0); 
 		font-family: 'Source Sans Pro', sans-serif;
   		text-align: center;
   		font-size: 3em;
@@ -16,8 +16,8 @@ h1{
   	
 }
 
-h3 {
-	color: white;
+h3, h4 {
+	color: rgb(255,170,0);
 	font-family: 'Source Sans Pro', sans-serif;
 	text-align: center;
 }
@@ -25,6 +25,9 @@ p {
 	color: white;
 	font-family: 'Roboto Slab', serif;
 	text-align: center;
+}
+p.button {
+	color: rgb(170,255,0) ;
 }
 
 ul.res {
@@ -40,7 +43,7 @@ li.item {
 
 img.center {
 	height: 300px;
-	border: 5px solid rgb(255,0,170);
+	border: 5px solid rgb(0,170,255);
 	border-radius: 50px;
 
 }
@@ -50,28 +53,32 @@ img.center {
 
 }
 .gallery .item {
-  height: 960px;
-  overflow: hidden;
-  text-align: center;
-  border-radius: 50px;
+  	height: 400px;
+  	width: 300px;
+ 	overflow: hidden;
+ 	margin-left: auto;
+ 	margin-right: auto;
+ 	margin-bottom: 50px;
+ 	border: 5px solid rgb(255,0,170);
+	border-radius: 50px;
 
 
  
 }
-.gallery .controls {
-  position: absolute;
+.controls {
+
   bottom: 100px;
   width: 100%;
   text-align: center;
 }
 
-.gallery .controls img {
-  border: 5px solid rgb(255,0,170);
+.controls img {
+  border: 5px solid rgb(170,0,255);
   border-radius: 60px;
 }
 
-.gallery .controls img:hover {
-  border: 5px solid #fa3e3e;
+.controls img:hover {
+  border: 5px solid rgb(255,0,170);
   border-radius: 60px;
 }
 
@@ -81,7 +88,6 @@ img.center {
   margin: 0;
   font-size: 16px;
   text-align: center;
-  color: #fa3e3e;
   text-decoration: none;
  
 }
