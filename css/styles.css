@@ -17,7 +17,7 @@ h1{
 }
 
 h3{
-	color: rgb(170,255,0);
+	color: rgb(255,170,0);
 	font-family: 'Source Sans Pro', sans-serif;
 	text-align: center;
 }
@@ -65,7 +65,7 @@ a:visited {
 div.box {
 	background: black;
 	padding-bottom: 20px;
-	border: solid 5px rgb(0,170,255);
+	border: solid 5px rgb(255,0,170);
 }
 
 .controls {
